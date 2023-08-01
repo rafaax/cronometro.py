@@ -1,10 +1,5 @@
 import os 
 from cronometro import *
-
-def start(self):
-    while True:
-        os.system('cls')
-        print(self)
-        self.incremento()
-        time.sleep(1)
+os.system('cls')
+time.sleep(1)
 
